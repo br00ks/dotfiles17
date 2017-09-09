@@ -21,6 +21,9 @@ set encoding=utf-8
 
 set cursorline
 
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+
 "--- The following commands make the navigation keys work like standard editors
 imap <silent> <Down> <C-o>gj
 imap <silent> <Up> <C-o>gk
